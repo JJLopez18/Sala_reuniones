@@ -6,6 +6,8 @@ public class Empleado {
     private String email;
     private String departamento;
 
+    public Empleado() {}
+
     public Empleado(int id, String nombre, String email, String departamento) {
         this.id = id;
         this.nombre = nombre;
