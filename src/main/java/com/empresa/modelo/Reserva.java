@@ -11,6 +11,8 @@ public class Reserva {
     private LocalTime horaInicio;
     private LocalTime horaFin;
 
+    public Reserva() {}
+
     public Reserva(int id, int idEmpleado, int idSala, LocalDate fecha, LocalTime horaInicio, LocalTime horaFin) {
         this.id = id;
         this.idEmpleado = idEmpleado;
