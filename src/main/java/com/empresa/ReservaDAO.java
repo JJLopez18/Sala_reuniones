@@ -36,7 +36,7 @@ public class ReservaDAO {
 
     public boolean insertarReserva(Reserva reserva) {
         if (hayConflicto(reserva)) {
-            System.out.println("Conflicto detectado: la sala ya está reservada en ese horario.");
+            System.out.println("Conflicto detectado: la sala ya esta reservada en ese horario.");
             return false;
         }
 
